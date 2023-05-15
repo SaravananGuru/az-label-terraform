@@ -8,11 +8,6 @@ output "name" {
   description = "Normalized name"
 }
 
-output "namespace" {
-  value       = local.namespace
-  description = "Normalized namespace"
-}
-
 output "stage" {
   value       = local.stage
   description = "Normalized stage"
